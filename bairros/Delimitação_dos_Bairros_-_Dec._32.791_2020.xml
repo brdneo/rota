@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20210325</pubdate>
+                <title>Delimitação dos Bairros - Dec. 32.791/2020</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://geo.salvador.ba.gov.br/arcgis/rest/services/Hosted/DEC32791_20_Delimita%C3%A7%C3%A3o_Bairros/FeatureServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>O PREFEITO MUNICIPAL DO SALVADOR, CAPITAL DO ESTADO DA BAHIA, no uso de suas atribuições que lhe confere o inciso XIV do art. 7º da Lei Orgânica do Município do Salvador, considerando a Lei no 9.278, de 2017, que dispõe sobre a delimitação e denominação dos bairros do Município de Salvador;Considerando que a Lei no 9.278, de 2017, no seu art. 7º define também como bairros pertencentes à porção continental as localidades do Chame-Chame, de Colinas de Periperi, do Dois de Julho, do Horto Florestal, da Ilha Amarela, de Mirante de Periperi e de Vista Alegre, observado o disposto no seu art. 4º;Considerando que a verificação do atendimento do disposto no art. 4º da Lei nº 9.278, de 2017 foi realizada por meio de estudos arquivados na Secretaria Municipal de Desenvolvimento e Urbanismo,DECRETA:Art. 1º Ficam criados os seguintes bairros no Município de Salvador, observado o disposto no art. 7º da Lei nº 9.278, de 2017:I -Chame-Chame;II -Colinas de Periperi;III -Dois de Julho;IV -Horto Florestal;V -Ilha Amarela;VI -Mirantes de Periperi;VII -Vista Alegre.Parágrafo único. As poligonais dos bairros criados nos incisos do caput deste artigo estão definidas na forma dos Anexos I a VII desta Lei.Art. 2º Para fins do disposto no art. 1º deste Decreto, ficam alteradas as poligonais dos bairros da Barra, de Brotas, do Candeal, do Centro, do Comércio, de Coutos, de Ondina, de Periperi, de Pirajá, de Plataforma e do Rio Sena, na forma dos Anexos VIII a XVIII deste Decreto.GABINETE DO PREFEITO DO MUNICÍPIO DO SALVADOR, em 01 de setembro de 2020.Em 2021, a Fundação Mário Leal Ferreira realizou a modificação do arquivo, referente aos limites externos da Baía de Todos os Santos, para a adaptação ao terreno visualizados nas Ortofotos produzidas em 2017. Projeção UTM 24s Datum horizontal: SIRGAS 2000 - Código EPSG:31984</abstract>
+            <purpose>Arquivo do Decreto Nº 32.791 de 01 de setembro de 2020, dispõe sobre a criação e delimitação de bairros no Município Salvador. </purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-38.66844177245229</westbc>
+                <eastbc>-38.231735229484464</eastbc>
+                <northbc>-12.713358203135444</northbc>
+                <southbc>-13.03265560356589</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Delimitação dos Bairros</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>imageryBaseMapsEarthCover</themekey>
+                <themekey>location</themekey>
+                <themekey>planningCadastre</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>urbanismo</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Uso irrestrito baseado na Lei Municipal nº 8460/2013 que dispõe sobre procedimentos a serem observados por todos os órgãos e instituições da administração pública direta e indireta da Prefeitura de Salvador, com o fim de garantir o acesso à informação, regulamentada pelo Decreto nº 24.806/2014. Fica impedido o usuário de comercializar os dados adquiridos ou pesquisados, qualquer que seja a publicação dessa base de dados, fica o usuário obrigado a citar a Prefeitura Municipal do Salvador como fonte de informação segundo o parágrafo 1º do artigo 39 da Lei nº 5.988/73.O usuário, em caso de dar um destino impróprio ou incorreto aos dados, estará ciente que a Prefeitura Municipal de Salvador não deverá ser responsabilizada.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Secretaria Municipal de Desenvolvimento e Urbanismo - SEDUR</cntorg>
+                    <cntper>GECAT – Gerência de Cadastro Técnico</cntper>
+                </cntorgp>
+                <cntpos>SEDUR</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Av. Antônio Carlos Magalhães, 3244 – Caminho das Árvores, Empresarial Thomé de Souza,3244</address>
+                    <city>Salvador</city>
+                    <postal>41820-000</postal>
+                    <country>BR</country>
+                </cntaddr>
+                <cntvoice>156</cntvoice>
+                <cntemail>Sedur.gecat@salvador.ba.gov.</cntemail>
+                <hours>Segunda à Sexta em horário comercial.</hours>
+                <cntinst>Entrar em contato com a gerência.</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Secretaria Municipal de Desenvolvimento e Urbanismo - SEDUR</datacred>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Solid</sdtstype>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>FMLF - Fundação Mário Leal Ferreira</cntorg>
+                    <cntper>Gerência de Planejamento de Informações</cntper>
+                </cntorgp>
+                <cntpos>FMLF</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Rua da Bélgica, nº 74 Condomínio Edifício Roosevelt - Comércio.</address>
+                    <city>Salvador</city>
+                    <postal>40010-030</postal>
+                    <country>BR</country>
+                </cntaddr>
+                <cntvoice>3202-9876/9864</cntvoice>
+                <cntemail>fmlf@salvador.ba.gov.br</cntemail>
+                <hours>Segunda à Sexta em horário comercial.</hours>
+                <cntinst>Entrar em contato com a gerência.</cntinst>
+            </cntinfo>
+        </distrib>
+        <resdesc>Portal criado para o armazenamento e consulta de dados</resdesc>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://geo.salvador.ba.gov.br/arcgis/rest/services/Hosted/DEC32791_20_Delimita%C3%A7%C3%A3o_Bairros/FeatureServer</networkr>
+                            </networka>
+                        </computer>
+                        <accinstr>Portal criado para o armazenamento e consulta de dados</accinstr>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20210325</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Secretaria Municipal de Desenvolvimento e Urbanismo - SEDUR</cntorg>
+                    <cntper>GECAT – Gerência de Cadastro Técnico</cntper>
+                </cntorgp>
+                <cntpos>SEDUR</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Av. Antônio Carlos Magalhães, 3244 – Caminho das Árvores, Empresarial Thomé de Souza,3244</address>
+                    <city>Salvador</city>
+                    <postal>41820-000</postal>
+                    <country>BR</country>
+                </cntaddr>
+                <cntvoice>156</cntvoice>
+                <cntemail>Sedur.gecat@salvador.ba.gov.</cntemail>
+                <hours>Segunda à Sexta em horário comercial.</hours>
+                <cntinst>Entrar em contato com a gerência.</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>Compartilhado ao Público.</metuc>
+    </metainfo>
+</metadata>
