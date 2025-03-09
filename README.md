@@ -21,7 +21,17 @@ Este projeto integra dados geoespaciais e informações de rotas para gerar um m
 
 ## Estrutura do Projeto
 
-├── README.md # Este arquivo ├── script.py # Código principal do projeto ├── data/ │ ├── bairros/ # Shapefile dos bairros de Salvador │ │ └── Delimitação*dos_Bairros*-\_Dec.\_32.791_2020.shp │ ├── bairros-ldf/ # Shapefile dos bairros de Lauro de Freitas │ │ └── Bairros_Geral_LF.shp │ └── bairros.csv # Arquivo CSV com informações de rotas └── mapa.html # Mapa interativo gerado
+    ```
+    ├── README.md               # Este arquivo
+    ├── rota-folium.py               # Código principal do projeto
+    ├── data/
+    │   ├── bairros/            # Shapefile dos bairros de Salvador
+    │   │   └── Delimitação_dos_Bairros_Dec_32.791_2020.shp
+    │   ├── bairros-ldf/        # Shapefile dos bairros de Lauro de Freitas
+    │   │   └── Bairros_Geral_LF.shp
+    │   └── bairros.csv         # Arquivo CSV com informações de rotas
+    └── mapa.html               # Mapa interativo gerado
+    ```
 
 ## Dependências
 
@@ -44,7 +54,7 @@ Este projeto integra dados geoespaciais e informações de rotas para gerar um m
 3. **Execute o script:**
 
     ```bash
-    python script.py
+    python rota-folium.py
     ```
 
 4. **Visualize o mapa:**  
@@ -59,7 +69,7 @@ Este projeto integra dados geoespaciais e informações de rotas para gerar um m
     A função `normalizar_nome` garante que os nomes dos bairros sejam padronizados antes da junção dos dados. Se os nomes em seus arquivos tiverem variações, ajuste essa função conforme necessário.
 
 -   **Renomeação Específica de Bairros:**  
-    Se houver bairros com nomes iguais em cidades diferentes (por exemplo, "Centro"), você pode renomear os registros de forma diferenciada para evitar conflitos. No exemplo, o bairro "Centro" de Lauro de Freitas é renomeado para "centro de lauro de freitas".
+    Se houver bairros com nomes iguais em cidades diferentes (por exemplo, "Centro"), você pode renomear os registros de forma diferenciada para evitar conflitos. No exemplo, o bairro "Centro" de Lauro de Freitas é renomeado para "Centro de Lauro".
 
 ## Conclusão
 
