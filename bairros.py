@@ -9,4 +9,9 @@ shapefile_ldf = r"C:\Users\Usuario\Documents\rota\bairros-ldf\Bairros_Geral_LF.s
 ldf = gpd.read_file(shapefile_ldf)
 ldf = ldf.rename(columns={'NOME': 'nome_bairr'})
 ldf.loc[ldf["nome_bairr"].str.lower().str.strip() == "centro", "nome_bairr"] = "Centro de Lauro"
-print(ldf)
+#print(ldf)
+
+interior = r"C:\Users\Usuario\Documents\rota\interior\interior.shp"
+inte = gpd.read_file(interior)
+inte = inte.rename(columns={'MUNICIPIO': 'nome_bairr'})
+print(inte)
