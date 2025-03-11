@@ -39,13 +39,15 @@ gdf_bairros = gdf_bairros.merge(df_rotas, left_on="nome_bairr", right_on="bairro
 
 # Dicionário que mapeia cada número de rota para uma cor específica
 color_map = {
+    1: "darkblue",
+    2: "lightblue",
     3: "blue",
     4: "green",
     5: "red",
     6: "purple",
     7: "orange",
-    8: "beige",
-    9: "FB607F"
+    8: "darkred",
+    9: "pink"
 }
 
 # Função que retorna a função de estilo com a cor definida
