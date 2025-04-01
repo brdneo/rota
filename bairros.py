@@ -14,4 +14,9 @@ ldf.loc[ldf["nome_bairr"].str.lower().str.strip() == "centro", "nome_bairr"] = "
 interior = r"C:\Users\Usuario\Documents\rota\interior\interior.shp"
 inte = gpd.read_file(interior)
 inte = inte.rename(columns={'MUNICIPIO': 'nome_bairr'})
-print(inte)
+#print(inte)
+
+feira = r"C:\Users\Usuario\Documents\rota\feira-santana\feira-de-santana.shp"
+fds = gpd.read_file(feira)
+fds = fds.rename(columns={'MUNICIPIO': 'nome_bairr'})
+print(fds)

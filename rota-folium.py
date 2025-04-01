@@ -6,6 +6,7 @@ import folium
 shapefile_path = r"C:\Users\Usuario\Documents\rota\bairros\Delimitação_dos_Bairros_-_Dec._32.791_2020.shp"
 shapefile_ldf = r"C:\Users\Usuario\Documents\rota\bairros-ldf\Bairros_Geral_LF.shp"
 shapefile_interior = r"C:\Users\Usuario\Documents\rota\interior\interior.shp"
+shapefile_feira = r"C:\Users\Usuario\Documents\rota\feira-santana\feira-de-santana.shp"
 csv_path = r"C:\Users\Usuario\Documents\rota\bairros.csv"
 
 # Carregar os dados e converter o CRS para WGS84 (EPSG:4326)
@@ -14,8 +15,10 @@ gdf_bairros_ldf = gdf_bairros_ldf.rename(columns={'NOME': 'nome_bairr'})
 gdf_bairros_ldf.loc[gdf_bairros_ldf["nome_bairr"].str.lower().str.strip() == "centro", "nome_bairr"] = "Centro de Lauro"
 gdf_interior = gpd.read_file(shapefile_interior).to_crs(epsg=4326)
 gdf_interior = gdf_interior.rename(columns={'MUNICIPIO': 'nome_bairr'})
+gdf_feira = gpd.read_file(shapefile_feira).to_crs(epsg=4326)
+gdf_feira = gdf_feira.rename(columns={'MUNICIPIO': 'nome_bairr'})
 gdf_bairros_ssa = gpd.read_file(shapefile_path).to_crs(epsg=4326)
-gdf_bairros = pd.concat([gdf_bairros_ssa, gdf_bairros_ldf, gdf_interior], ignore_index=True)
+gdf_bairros = pd.concat([gdf_bairros_ssa, gdf_bairros_ldf, gdf_interior, gdf_feira], ignore_index=True)
 df_rotas = pd.read_csv(csv_path)
 
 # Função para normalizar os nomes dos bairros
